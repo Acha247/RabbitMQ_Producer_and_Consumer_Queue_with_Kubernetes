@@ -1,0 +1,24 @@
+ name: rabbitmq
+  namespace: rabbits
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rabbitmq
+  template:
+    metadata:
+      labels:
+        app: rabbitmq
+    spec:
+      containers:
+      - name: rabbitmq
+        image: rabbitmq:3.8.9-management
+        ports:
+        - containerPort: 5672
+        - containerPort: 15672
+        env:
+        - name: RABBITMQ_DEFAULT_USER
+          value: Acha
+        - name: RABBITMQ_DEFAULT_PASS
+          value: Acha2001@cot
+

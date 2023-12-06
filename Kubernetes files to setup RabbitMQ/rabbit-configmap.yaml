@@ -1,0 +1,8 @@
+kind: ConfigMap
+metadata:
+  name: rabbitmq-config
+  namespace: rabbits
+data:
+  RABBITMQ_DEFAULT_USER: Acha
+  RABBITMQ_DEFAULT_PASS: Acha2001@cot
+
