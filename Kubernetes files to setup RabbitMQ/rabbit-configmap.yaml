@@ -3,6 +3,6 @@ metadata:
   name: rabbitmq-config
   namespace: rabbits
 data:
-  RABBITMQ_DEFAULT_USER: Acha
-  RABBITMQ_DEFAULT_PASS: Acha2001@cot
+  RABBITMQ_DEFAULT_USER: admin
+  RABBITMQ_DEFAULT_PASS: password
 
