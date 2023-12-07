@@ -18,7 +18,7 @@ spec:
         - containerPort: 15672
         env:
         - name: RABBITMQ_DEFAULT_USER
-          value: Acha
+          value: admin
         - name: RABBITMQ_DEFAULT_PASS
-          value: Acha2001@cot
+          value: password
 
